@@ -16,6 +16,40 @@ To run the code just navigate to the directory that has the run.py file and then
 ```python
 python3 run.py
 ```
-# Authors
-1. Jigme Tashi Namgyal
-1. Karma Zoepa Yoezer
+
+# The Math
+
+The math in this is relatively simple and even though I'm pretty shit at math I think it was relatively easy for me to grasp the concepts for this.
+
+The Math done below is to find the expected value for each roll.
+
+So to start off: 
+1. The number of possiblities when you roll 3 dice is:
+    - 6 * 6 * 6 = 216
+    - this is because each die has 6 different possible outcomes 1-6 and each of them is independent of each other. So 216 actually represent the number of ways you can actually arrange them. not too sure.
+1. As mentioned above, set of good outcomes:
+    - {3,5,7,8,9,11,13,14,17,18}
+1. And Now the ways to roll these good outcomes (I wont bother explaining this here's a [link](https://www.thoughtco.com/probabilities-for-rolling-three-dice-3126558#:~:text=Just%20as%20one%20die%20has,sums%20from%20rolling%20several%20dice.))
+    - Num Ways to roll a 3 = 1
+    - Num Ways to roll a 5 = 6
+    - Num Ways to roll a 7 = 15
+    - Num Ways to roll a 8 = 21
+    - Num Ways to roll a 9 = 25
+    - Num Ways to roll a 11 = 27
+    - Num Ways to roll a 13 = 21
+    - Num Ways to roll a 14 = 15
+    - Num Ways to roll a 17 = 3
+    - Num Ways to roll a 18 = 1
+    - Total Ways to roll a sho zangmi = 135
+    - Probability of rolling a sho zangmi on the first try = 135/216 - 0.625
+1. The probability of you actually getting a sho mazangmi i.e. probability of you getting an unlucky number three times in a row:
+    - Num ways to roll an unlucky number: 216-135 = 81
+    - probability of getting a sho mazangmi on the first try = 81/216 = 0.375
+    - since we only consider that the Shos' show an ill fortune only when we roll a sho mazangmi three times in a row. So lets find out the probability of rolling a sho mazangmi three times in a row:
+        - 0.375 * 0.375 * 0.375 = 0.05273
+    - now since we have the probability of getting a sho mazangmi it is easy to find the probability of getting a sho zangmi:
+        - 1 - 0.05273 = 0.94727
+1. So to sum up the probability of you getting a sho zangmi is 0.94727 and this is mainly because you get three chances. The probability of getting a sho mazangmi is: 0.05273. 
+# Authors and Acknowledgement
+1. Karma Z. Yoezer
+1. Jigme T. Namgyal
