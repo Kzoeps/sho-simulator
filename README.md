@@ -54,6 +54,9 @@ So to start off:
     - now since we have the probability of getting a sho mazangmi it is easy to find the probability of getting a sho zangmi:
         - 1 - 0.05273 = 0.94727
 1. So to sum up the probability of you getting a sho zangmi is 0.94727 and this is mainly because you get three chances. The probability of getting a sho mazangmi is: 0.05273. 
+# Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
 # Authors and Acknowledgement
 1. Karma Z. Yoezer
 1. Jigme T. Namgyal
