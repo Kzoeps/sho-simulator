@@ -16,7 +16,11 @@ To run the code just navigate to the directory that has the run.py file and then
 ```python
 python3 run.py
 ```
-
+# To Dos
+- [x] Code the Simulation
+- [ ] Make python graphics for the dice roll
+- [ ] Let users be able to phuesheling nyendar
+- [ ] Write out the math in a proper latex document
 # The Math
 
 The math in this is relatively simple and even though I'm pretty shit at math I think it was relatively easy for me to grasp the concepts for this.
